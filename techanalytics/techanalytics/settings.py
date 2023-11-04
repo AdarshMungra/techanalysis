@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'techanalytics.views', #custom views location
+    'techanalytics.models', # cusotm models location 
 ]
 
 MIDDLEWARE = [
